@@ -1,42 +1,62 @@
-title: "Lemonbrush"
-email: aa_rubtsov@mail.ru
-description: >-
-  Personal indie devlog archive
+site: Lemonbrush
+url: #yoururl
+title: Lemonbrush
+description: Personal dev log archive
+twitter:
+  username: #yourusername
+  card: summary
+  creator: #yourusername
+author:
+  twitter: #yourusername
+  name: Lemonbrush
+  avatar: https://avatars.githubusercontent.com/u/14632982?s=400&u=dbb61a1ad299f9996d988b2025d9be12fb618bad&v=4
+  email: aa_rubtsov@mail.ru
+  url: #yoururl
+permalink: pretty
+
 baseurl: ""
-url: ""
-github_username:  Lemonbrush
-logo: "https://avatars.githubusercontent.com/u/14632982?s=400&u=dbb61a1ad299f9996d988b2025d9be12fb618bad&v=4"
 
-# Build settings
-remote_theme: just-the-docs/just-the-docs
+highlighter: none
+
+exclude:
+  - .jekyll-cache
+  
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
 plugins:
-  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-sitemap  
 
-# "light" (default) or "dark"
-color_scheme: dark
-
-# Search feature
-search_enabled: true
-search:
-  # Split pages into sections that can be searched individually
-  # Supports 1 - 6, default: 2
-  heading_level: 2
-  # Maximum amount of previews per search result
-  # Default: 3
-  previews: 3
-  # Maximum amount of words to display before a matched word in the preview
-  # Default: 5
-  preview_words_before: 5
-  # Maximum amount of words to display after a matched word in the preview
-  # Default: 10
-  preview_words_after: 10
-  # Set the search token separator
-  # Default: /[\s\-/]+/
-  # Example: enable support for hyphenated search words
-  tokenizer_separator: /[\s/]+/
-  # Display the relative url in search results
-  # Supports true (default) or false
-  rel_url: true
-  # Enable or disable the search button that appears in the bottom right corner of every page
-  # Supports true or false (default)
-  button: false
+collections:
+  pages:
+    output: true
+    permalink: /:name
+  posts:
+    output: true
+    permalink: /:year/:month/:day/:slug
+  
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
