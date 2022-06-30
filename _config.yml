@@ -25,12 +25,21 @@ dash:
   # generate social links in footer
   # supported colors: green, red, orange, blue, cyan, pink, teal, yellow, indigo, purple
   social_links:
+    - url: https://www.behance.net/lemonbrush?locale=it_IT
+      icon: behance
+      color: blue
+    - url: https://discord.gg/Z4hPB8Bx
+      icon: discord
+      color: purple
+    - url: mailto:aa_rubtsov@mail.ru
+      icon: mail
+      color: green
     - url: https://lemonbrush.itch.io
       icon: itch-io
       color: red
     - url: https://github.com/Lemonbrush
       icon: github-square
-      color: purple
+      color: orange
     - url: https://www.youtube.com/channel/UCtzr1r4OS5p6ZvT2R3umd3Q
       icon: youtube
       color: red
