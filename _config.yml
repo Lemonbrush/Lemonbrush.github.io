@@ -25,27 +25,24 @@ dash:
   # generate social links in footer
   # supported colors: green, red, orange, blue, cyan, pink, teal, yellow, indigo, purple
   social_links:
+    - url: https://www.youtube.com/channel/UCtzr1r4OS5p6ZvT2R3umd3Q
+      icon: youtube
+      color: red
     - url: https://www.behance.net/lemonbrush?locale=it_IT
-      icon: behance
+      icon: behance-square
+      color: blue
+    - url: https://t.me/+KXg8D_VXYrZiZWQy
+      icon: telegram
       color: blue
     - url: https://discord.gg/Z4hPB8Bx
       icon: discord
       color: purple
-    - url: mailto:aa_rubtsov@mail.ru
-      icon: mail
-      color: green
     - url: https://lemonbrush.itch.io
       icon: itch-io
       color: red
     - url: https://github.com/Lemonbrush
       icon: github-square
       color: orange
-    - url: https://www.youtube.com/channel/UCtzr1r4OS5p6ZvT2R3umd3Q
-      icon: youtube
-      color: red
-    - url: https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwj82PHomNb4AhXjCRAIHaJACUIQFnoECAMQAQ&url=https%3A%2F%2Ftwitter.com%2Flemonbrusher&usg=AOvVaw311lkfQsDe7UqKGX_p17dI
-      icon: twitter
-      color: blue
 
   # wether the author box should be displayed
   show_author: true
