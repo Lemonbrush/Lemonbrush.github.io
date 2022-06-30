@@ -1,4 +1,14 @@
+PATH
+  remote: .
+  specs:
+    jekyll-dash (2.3.3)
+      jekyll (~> 4.0)
+      jekyll-feed (~> 0.14)
+      jekyll-paginate
+      jekyll-seo-tag (~> 2.1)
+
 GEM
+  remote: https://rubygems.org/
   specs:
     addressable (2.8.0)
       public_suffix (>= 2.0.2, < 5.0)
@@ -28,11 +38,6 @@ GEM
       rouge (~> 3.0)
       safe_yaml (~> 1.0)
       terminal-table (~> 2.0)
-    jekyll-dash (2.3.3)
-      jekyll (~> 4.0)
-      jekyll-feed (~> 0.14)
-      jekyll-paginate
-      jekyll-seo-tag (~> 2.1)
     jekyll-feed (0.16.0)
       jekyll (>= 3.7, < 5.0)
     jekyll-paginate (1.1.0)
@@ -49,18 +54,17 @@ GEM
     kramdown-parser-gfm (1.1.0)
       kramdown (~> 2.0)
     liquid (4.0.3)
+    liquid-md5 (0.0.3)
+      liquid (>= 2.5, < 5.0)
     listen (3.7.1)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.4.0)
-    minima (2.5.1)
-      jekyll (>= 3.5, < 5.0)
-      jekyll-feed (~> 0.9)
-      jekyll-seo-tag (~> 2.1)
     nuggets (1.6.1)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (4.0.7)
+    rake (13.0.6)
     rb-fsevent (0.11.1)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
@@ -77,17 +81,12 @@ PLATFORMS
   x86_64-darwin-21
 
 DEPENDENCIES
-  http_parser.rb (~> 0.6.0)
-  jekyll (~> 4.2.2)
-  jekyll-dash (~> 2)
-  jekyll-feed (~> 0.12)
-  jekyll-paginate
-  jekyll-seo-tag
+  bundler (~> 2.3.7)
+  jekyll-dash!
   jekyll-tagging
-  minima (~> 2.5)
-  tzinfo (~> 1.2)
-  tzinfo-data
-  wdm (~> 0.1.1)
+  kramdown-parser-gfm
+  liquid-md5
+  rake (~> 13.0.6)
 
 BUNDLED WITH
    2.3.7
