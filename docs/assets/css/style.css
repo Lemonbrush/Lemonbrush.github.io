@@ -3159,8 +3159,6 @@ html.direction--rtl pre { direction: ltr; text-align: left; }
 
 .theme--light .tag:hover, .theme--light .tag-cloud > a:hover { background-color: white; }
 
-.tag:before, .tag-cloud > a:before { content: "\f02b"; font-family: "Font Awesome 5 Free"; font-weight: 900; font-style: normal; font-variant: normal; text-rendering: auto; font-weight: 900; -webkit-font-smoothing: antialiased; margin-right: 0.5em; }
-
 .tag { display: inline-block; margin: 0.3em 0.3em 0.3em 0; }
 
 .post-tags { margin-top: 0.3em; margin-bottom: 0.5em; text-align: initial; }
