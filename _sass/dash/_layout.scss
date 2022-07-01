@@ -131,7 +131,7 @@
 
 .post-title {
     @include themed() {
-       color: t('color-background-dark');
+       color: t('foreground-color');
     }
     text-align: left;
 }

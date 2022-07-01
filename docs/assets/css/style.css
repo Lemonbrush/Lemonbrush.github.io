@@ -2980,6 +2980,10 @@ h1, h2, h3, h4, h5, h6 { font-weight: 500; margin-top: 1em; margin-bottom: 0.4em
 /** Links */
 a { color: #637AFE; text-decoration: none; }
 
+.theme--dark a:hover { color: #DAE4ED; }
+
+.theme--light a:hover { color: #1E2227; }
+
 .social-media-list a:hover { text-decoration: none; }
 
 .social-media-list a:hover .username { text-decoration: underline; }
@@ -3072,6 +3076,10 @@ html.direction--rtl pre { direction: ltr; text-align: left; }
 .site-header { margin-bottom: 1em; }
 
 .post-title { text-align: left; }
+
+.theme--dark .post-title { color: #DAE4ED; }
+
+.theme--light .post-title { color: #1E2227; }
 
 .post-description { margin-top: 1em; font-size: 18.4px; overflow: hidden; width: 100%; margin-bottom: 1em; margin-left: 0.5em; }
 
