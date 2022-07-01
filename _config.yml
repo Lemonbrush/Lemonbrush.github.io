@@ -1,3 +1,8 @@
+# custome export site folder name
+destination: ./docs
+exclude:
+ - docs
+
 title: Lemonbrush
 author: Lemonbrush
 email: aa_rubtsov@mail.ru
