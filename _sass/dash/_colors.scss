@@ -1,6 +1,6 @@
 $color-background-dark: #1E2227;
 $color-background-darker: #15171A;
-$color-foreground: #DAE4ED;
+$color-foreground: #EA9D53;
 $color-foreground-dark: lighten($color-background-dark, 30%);
 
 $color-background-light: #DAE4ED;
@@ -18,6 +18,7 @@ $color-cyan: #4FC1E4;
 $color-blue: #637AFE;
 $color-indigo: #6775C4;
 $color-purple: #8E59D7;
+$color-white: #ffffff;
 
 .color-pink { color: $color-pink !important; }
 .color-red { color: $color-red !important; }
@@ -29,6 +30,7 @@ $color-purple: #8E59D7;
 .color-blue { color: $color-blue !important; }
 .color-indigo { color: $color-indigo !important; }
 .color-purple { color: $color-purple !important; }
+.color-white { color: $color-white !important; }
 
 .color-pink-hover:hover { color: $color-pink !important; }
 .color-red-hover:hover { color: $color-red !important; }
@@ -40,3 +42,4 @@ $color-purple: #8E59D7;
 .color-blue-hover:hover { color: $color-blue !important; }
 .color-indigo-hover:hover { color: $color-indigo !important; }
 .color-purple-hover:hover { color: $color-purple !important; }
+.color-white-hover:hover { color: $color-white !important; }

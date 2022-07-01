@@ -5,10 +5,10 @@ $themes: (
                 foreground-color: $color-foreground,
                 foreground-color-alt: lighten($color-foreground-dark, 10%),
                 foreground-color-contrast: white,
-                quote-primary: lighten($color-yellow, 20%),
-                quote-secondary: $color-yellow,
-                list-primary: lighten($color-green, 25%),
-                list-secondary: $color-green
+                quote-primary: lighten($color-green, 20%),
+                quote-secondary: $color-green,
+                list-primary: lighten($color-orange, 25%),
+                list-secondary: $color-orange
         ),
         light: (
                 background-color: $color-background-lighter,

@@ -12,5 +12,7 @@
 {% endcapture %}
 {% endif %}
 {% if avatar_image %}
-<img src="{{ avatar_image }}" class="author-avatar" alt="Avatar" />
+<a href="{{ "/" | relative_url }}">
+	<img src="{{ avatar_image }}" class="author-avatar" alt="Avatar" />
+</a>
 {% endif %}

@@ -45,7 +45,7 @@ figure {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: $color-blue;
+  color: $color-orange;
 }
 
 /**
@@ -107,14 +107,13 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-  color: $color-pink;
+  color: $color-white;
   text-decoration: none;
 
   &:hover {
     @include themed() {
        color: t('foreground-color');
     }
-    text-decoration: underline;
   }
 
   .social-media-list &:hover {
