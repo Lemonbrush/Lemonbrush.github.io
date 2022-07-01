@@ -2954,7 +2954,7 @@ p { margin: 0.5em 0; }
 
 figure { width: 100%; margin: 0; }
 
-h1, h2, h3, h4, h5, h6 { color: #637AFE; }
+h1, h2, h3, h4, h5, h6 { color: #1E2227; }
 
 /** `main` element */
 main { display: block; /* Default value of `display` of `main` element is 'inline' in IE 11. */ }
@@ -3022,7 +3022,7 @@ pre > code { border: 0; padding-right: 0; padding-left: 0; }
 
 .site-header .blinking_cursor { animation: blinker 1s none infinite; font-size: 20px; }
 
-.site-header .command_prompt { color: #EA9D53; font-size: 16px; margin-left: 0.1em; }
+.site-header .command_prompt { color: #637AFE; font-size: 16px; margin-left: 0.1em; }
 
 .site-header .command_prompt:before { content: "\f054"; font-family: "Font Awesome 5 Free"; font-weight: 900; font-style: normal; font-variant: normal; text-rendering: auto; font-weight: 900; -webkit-font-smoothing: antialiased; margin-right: 0.2em; }
 
@@ -3109,7 +3109,7 @@ html.direction--rtl pre { direction: ltr; text-align: left; }
 
 .post ul > li { text-align: left; margin-bottom: 0.6em; list-style: none; margin-left: 0; }
 
-.theme--dark .post ul > li { color: #f8dec5; }
+.theme--dark .post ul > li { color: #ade0b9; }
 
 .theme--light .post ul > li { color: #50BD6A; }
 
@@ -3119,7 +3119,7 @@ html.direction--rtl pre { direction: ltr; text-align: left; }
 
 .post > blockquote { margin-top: 2em; margin-bottom: 1em; margin-left: 0.5em; font-style: italic; }
 
-.theme--dark .post > blockquote { color: #9ad9a9; }
+.theme--dark .post > blockquote { color: #fddb8d; }
 
 .theme--light .post > blockquote { color: #FCBC28; }
 
@@ -3129,7 +3129,7 @@ html.direction--rtl pre { direction: ltr; text-align: left; }
 
 .post > blockquote > ul { margin-left: 3em; }
 
-.theme--dark .post > blockquote li { color: #50BD6A; }
+.theme--dark .post > blockquote li { color: #FCBC28; }
 
 .theme--light .post > blockquote li { color: #eea703; }
 
