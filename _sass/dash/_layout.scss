@@ -278,7 +278,7 @@
  }
 
 .tag, .tag-cloud > a {
-  color: $color-background-dark;
+  color: $color-white;
   @include themed() {
      background-color: t('background-color');
   }
@@ -336,7 +336,7 @@
   }
 
   & > a {
-    color: $color-background-dark;
+    color: $color-white;
     @include themed() {
        background-color: t('background-color');
     }

@@ -3149,7 +3149,7 @@ html.direction--rtl pre { direction: ltr; text-align: left; }
 
 .tag-cloud > a { display: inline-block; margin: 0.3em 0.3em 0.3em 0; }
 
-.tag, .tag-cloud > a { color: #1E2227; padding: 0.3em 0.6em; border-radius: 0.3em; }
+.tag, .tag-cloud > a { color: #ffffff; padding: 0.3em 0.6em; border-radius: 0.3em; }
 
 .theme--dark .tag, .theme--dark .tag-cloud > a { background-color: #1E2227; }
 
@@ -3183,7 +3183,7 @@ html.direction--rtl pre { direction: ltr; text-align: left; }
 
 .pagination > a:hover, .pagination > span:hover { text-decoration: none; }
 
-.pagination > a { color: #1E2227; }
+.pagination > a { color: #ffffff; }
 
 .theme--dark .pagination > a { background-color: #1E2227; }
 
