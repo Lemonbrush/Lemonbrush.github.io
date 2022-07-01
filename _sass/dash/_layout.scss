@@ -291,12 +291,6 @@
        background-color: lighten(t('background-color'), 5%);
     }
   }
-
-  &:before {
-    content: $icon-tag;
-    @include font-awesome-icon;
-    margin-right: 0.5em;
-  }
 }
 
 .tag {
