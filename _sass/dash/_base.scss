@@ -45,7 +45,7 @@ figure {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: $color-background-dark;
+  color: $color-foreground;
 }
 
 /**
@@ -112,7 +112,7 @@ a {
 
   &:hover {
     @include themed() {
-       color: t('foreground-color');
+       color: t('color-blue');
     }
   }
 
