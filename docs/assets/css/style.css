@@ -2954,7 +2954,7 @@ p { margin: 0.5em 0; }
 
 figure { width: 100%; margin: 0; }
 
-h1, h2, h3, h4, h5, h6 { color: #1E2227; }
+h1, h2, h3, h4, h5, h6 { color: #DAE4ED; }
 
 /** `main` element */
 main { display: block; /* Default value of `display` of `main` element is 'inline' in IE 11. */ }
@@ -2979,10 +2979,6 @@ h1, h2, h3, h4, h5, h6 { font-weight: 500; margin-top: 1em; margin-bottom: 0.4em
 
 /** Links */
 a { color: #ffffff; text-decoration: none; }
-
-.theme--dark a:hover { color: #DAE4ED; }
-
-.theme--light a:hover { color: #1E2227; }
 
 .social-media-list a:hover { text-decoration: none; }
 
@@ -3215,11 +3211,11 @@ ul.related-posts > li a { display: inline-block; padding-top: 0.5em; padding-bot
 
 ul.related-posts > li h3 { display: inline-block; margin: 0; }
 
-ul.related-posts > li:before { content: "\f0c3"; font-family: "Font Awesome 5 Free"; font-weight: 900; font-style: normal; font-variant: normal; text-rendering: auto; font-weight: 900; -webkit-font-smoothing: antialiased; color: #50BD6A; margin-right: 0.5em; }
+ul.related-posts > li:before { content: "\f004"; font-family: "Font Awesome 5 Free"; font-weight: 900; font-style: normal; font-variant: normal; text-rendering: auto; font-weight: 900; -webkit-font-smoothing: antialiased; color: #50BD6A; margin-right: 0.5em; }
 
 #theme-toggle { background-color: transparent; border: none; float: right; display: inline-block; }
 
-#theme-toggle.dark:before { content: "\f0c3"; font-family: "Font Awesome 5 Free"; font-weight: 900; font-style: normal; font-variant: normal; text-rendering: auto; font-weight: 900; -webkit-font-smoothing: antialiased; }
+#theme-toggle.dark:before { content: "\f004"; font-family: "Font Awesome 5 Free"; font-weight: 900; font-style: normal; font-variant: normal; text-rendering: auto; font-weight: 900; -webkit-font-smoothing: antialiased; }
 
 .theme--dark #theme-toggle.dark { color: #DAE4ED; }
 
@@ -3227,7 +3223,7 @@ ul.related-posts > li:before { content: "\f0c3"; font-family: "Font Awesome 5 Fr
 
 #theme-toggle.light { color: #FCBC28; }
 
-#theme-toggle.light:before { content: "\f0c3"; font-family: "Font Awesome 5 Free"; font-weight: 900; font-style: normal; font-variant: normal; text-rendering: auto; font-weight: 900; -webkit-font-smoothing: antialiased; }
+#theme-toggle.light:before { content: "\f004"; font-family: "Font Awesome 5 Free"; font-weight: 900; font-style: normal; font-variant: normal; text-rendering: auto; font-weight: 900; -webkit-font-smoothing: antialiased; }
 
 .modal { cursor: pointer; }
 
