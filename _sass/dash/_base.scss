@@ -107,12 +107,12 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-  color: $color-white;
+  color: $color-blue;
   text-decoration: none;
 
   &:hover {
     @include themed() {
-       color: t('color-blue');
+       color: t('color-white');
     }
   }
 
