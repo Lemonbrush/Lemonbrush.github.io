@@ -29,7 +29,7 @@ github:
   username: Lemonbrush # change to your github username
 
 twitter:
-  username: twitter_username # change to your twitter username
+  username: Lemonbrush # change to your twitter username
 
 social:
   # Change to your full name.
@@ -41,7 +41,7 @@ social:
     #- https://twitter.com/username # change to your twitter homepage
     - https://github.com/Lemonbrush # change to your github homepage
     # Uncomment below to add more social links
-    # - https://www.facebook.com/username
+    - https://lemonbrush.itch.io
     # - https://www.linkedin.com/in/username
 
 # Site Verification Settings
